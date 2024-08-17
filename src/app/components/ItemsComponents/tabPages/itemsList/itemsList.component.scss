@@ -1,0 +1,22 @@
+h1{
+    font-size: 30px;
+    border-bottom: 2px solid #acabab;
+}
+.tableheight{
+    height: 500px !important;
+    overflow: auto !important;
+}
+table{
+    border: 1px solid #acabab;
+    font-size: 15px;
+}
+
+table th, table td:nth-last-child(n + 4){
+    padding: 5px;
+    border: 1px solid #acabab;
+}
+
+.icon-btn{
+    padding: 10px 15px;
+    font-size: 20px;
+}

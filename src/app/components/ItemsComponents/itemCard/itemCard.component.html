@@ -1,0 +1,64 @@
+<form class="row p-3" [formGroup]="bioSection">
+  <!-- 12 -->
+  <div class="col-md-4 mb-1">
+    <label for="CategoryCode" class="form-label">Category Code</label>
+    <input type="text" class="form-control" id="CategoryCode" [formControl]="bioSection.controls.CategoryCode">
+  </div>
+  <div class="col-md-4 mb-1">
+
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="openDate" class="form-label">Open Date</label>
+    <input type="date" class="form-control" id="openDate" [formControl]="bioSection.controls.openDate">
+  </div>
+  <!-- 12 -->
+  <div class="col-md-4 mb-1">
+    <label for="itemNumber" class="form-label">Item Number</label>
+    <input type="number" class="form-control w-100" id="itemNumber" [formControl]="bioSection.controls.itemNumber">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="arabic" class="form-label">Item Name(arabic)</label>
+    <input type="text" class="form-control" id="arabic" [formControl]="bioSection.controls.arabic">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="Latin" class="form-label">Item Name(Latin)</label>
+    <input type="text" class="form-control" id="Latin" [formControl]="bioSection.controls.Latin">
+  </div>
+  <!-- 12 -->
+  <div class="col-md-12 mb-1">
+    <label for="remarks" class="form-label">Remarks</label>
+    <textarea class="form-control w-100" id="remarks" [formControl]="bioSection.controls.remarks"></textarea>
+  </div>
+  <!-- 12 -->
+  <div class="col-md-12 mb-1">
+    <label for="weigthAverage" class="form-label">Weigth Average</label>
+    <input type="number" class="form-control w-100" id="weigthAverage" [formControl]="bioSection.controls.weigthAverage">
+  </div>
+  <!-- 12 -->
+  <div class="col-md-4 mb-1">
+    <label for="mnimumQTY" class="form-label">Mnimum QTY</label>
+    <input type="number" class="form-control w-100" id="mnimumQTY" [formControl]="bioSection.controls.mnimumQTY">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="outstandOrder" class="form-label">Outstand Order</label>
+    <input type="number" class="form-control" id="outstandOrder" [formControl]="bioSection.controls.outstandOrder">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="l12Sale" class="form-label">L.12 Month Sale</label>
+    <input type="text" class="form-control" id="l12Sale" [formControl]="bioSection.controls.l12Sale">
+  </div>
+  <!-- 12 -->
+  <div class="col-md-4 mb-1">
+    <label for="costPrice" class="form-label">Cost Price</label>
+    <input type="number" class="form-control" id="costPrice" [formControl]="bioSection.controls.costPrice">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="salePrice" class="form-label">Sale Price</label>
+    <input type="number" class="form-control" id="salePrice" [formControl]="bioSection.controls.salePrice">
+  </div>
+  <div class="col-md-4 mb-1">
+    <label for="priceDate" class="form-label">Price Date</label>
+    <input type="date" class="form-control" id="priceDate" [formControl]="bioSection.controls.priceDate">
+  </div>
+</form>
+<app-itemTabs></app-itemTabs>
